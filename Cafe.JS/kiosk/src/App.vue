@@ -46,12 +46,10 @@ import Category from "./components/category/Category.vue";
   }
 
 
-  
 
 
   body {
     background-color: #BA9470;
   }
-
 
 </style>
