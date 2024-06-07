@@ -179,7 +179,7 @@ button {
     
   }
 
-  .body {
+ body {
     background-color: #BA9470;
   }
 
