@@ -13,11 +13,13 @@
 </template>
 
 <style scoped>
+.video-container{
+    display: flex;
+    justify-content: center;
+}
 video {
     border-radius: 10px;
-    width: 100%;
-    height: auto;
-    align-items: center;
-  
+    width: auto;
+    height: 500px;
 }
 </style>
