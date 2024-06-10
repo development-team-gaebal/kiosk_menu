@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 
 const buttons = ref([
-  { label: '추천메뉴!', color: 'brown' },
+  { label: '추천메뉴!', color: 'yellow' },
   { label: '커피', color: 'brown' },
   { label: '디카페인', color: 'brown' },
   { label: '스무디', color: 'brown' },
@@ -18,7 +18,6 @@ const changeColor = (index) => {
   // 클릭된 버튼의 색상을 노란색으로 변경
   buttons.value[index].color = 'yellow';
 };
-
 </script>
 
 <template>
@@ -47,7 +46,7 @@ const changeColor = (index) => {
     }
     
     .menuBtn{
-        
+        cursor: pointer;
         display: flex;
         font-family: 'BMJUA';
         font-size: 1.15em;
